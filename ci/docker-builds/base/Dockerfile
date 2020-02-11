@@ -1,6 +1,7 @@
 FROM java:8-jdk
 
-#RUN \
+RUN \
+whoami
 #apt-get update
 #&& \
 #apt-get install -y git
